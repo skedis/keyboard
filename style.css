@@ -1,0 +1,42 @@
+#keyboard {
+    margin: 25px;
+    padding: 3px;
+
+    width: 1000px;
+    height: 435px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.button {
+    width: 100%;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: darkgray;
+    outline: 3px solid black;
+}
+
+.empty-space {
+    width: 950%;
+}
+
+.space-button {
+    width: 250%;
+}
+
+.pressed-button {
+    background-color: rgb(105, 105, 105);
+}
